@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+	public class Jenny{
+		
+		public static void main(String[] args){
+			
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print(" enter number1: ");
+		int number1 = input.nextInt();
+		
+		int number2 = 100;
+		
+		double a = Math.pow(number1, 2);
+		
+		if (a == number2){
+			System.out.printf("%d == %d, %n", a, number2);
+		}
+		
+		
+		if (a != number2){
+			System.out.printf("%d != %d, %n", a, number2);
+		}
+		
+		if (a < number2){
+		System.out.printf("%d < %d, %n", a, number2);
+		}
+
+		if (a > number2){
+		System.out.printf("%d > %d, %n", a, number2);
+		}
+
+		if (a <= number2){
+		System.out.printf("%d <= %d, %n", a, number2);
+		}
+
+		if (a >= number2){
+		System.out.printf("%d >= %d, %n", a, number2);
+		}
+
+	}
+}
